@@ -60,6 +60,9 @@ const Header = () => {
           <Input
             placeholder="Search"
             className="bg-[#283241] pl-10 pr-3 py-3 rounded-full text-white focus:outline-none focus:ring-1 focus:ring-slate-900"
+            crossOrigin={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           />
         </div>
       </header>
