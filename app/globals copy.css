@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-custom-gradient {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  }
+  .font-1 {
+    font-size: 14px;
+  }
+  .font-2 {
+    font-size: 16px;
+  }
+  .font-3 {
+    font-size: 18px;
+  }
+  .font-4 {
+    font-size: 24px;
+  }
+}
