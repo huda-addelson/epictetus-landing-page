@@ -32,7 +32,7 @@ const Home = () => {
         </PostBlog>
       </div>
       {/* Grid Post */}
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-4 mt-6 lg:mt-14">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-4 mt-6 lg:mt-8">
         {postItems.map((item, idx) => (
           <div
             className="col-span-4 cursor-pointer relative group p-1 h-full w-full"

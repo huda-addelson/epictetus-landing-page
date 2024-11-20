@@ -39,9 +39,7 @@ const Header = () => {
     >
       {/* For Web */}
       <header
-        className={`transition-all duration-300  justify-between items-center max-w-screen-xl mx-auto hidden lg:flex ${
-          y > 100 ? "py-5" : "py-8"
-        }`}
+        className={`transition-all duration-300  justify-between items-center max-w-screen-xl mx-auto hidden lg:flex py-5`}
       >
         <div className="flex items-center gap-24">
           <div className="text-white font-3">
